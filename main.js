@@ -117,7 +117,7 @@ app.on('window-all-closed', () => {
 app.on('ready', function()  {
   setInterval(() => {
     autoUpdater.checkForUpdatesAndNotify();
-  }, 1000 * 5);
+  }, 1000 * 20);
 });
 
 //-------------------------------------------------------------------
